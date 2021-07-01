@@ -1,0 +1,30 @@
+{
+    "stringConstants": {
+        "callbackQuery": {
+            "split": "split",
+            "custom": "custom",
+            "cancel": "cancel"
+        }
+    },
+    "replies": {
+        "hexExample": "#D7027000, #734F9600, #0038A800",
+        "custom": "Send a comma-separated list of hex colors, e.g. ",
+        "welcome": "Welcome to the Pride Profile Bot! This is a free-to-use tool for customizing your profile picture with pride flag colors. There are several templates available as well the option to input your own colors to use.\nCan't choose just one? Try selecting \"Split\" in the keyboard to use two different templates.",
+        "updates": "New in version 2.0:\n&#9654; Split Colors\n&#9654; Custom Colors",
+        "cancel": "All inputs have been cleared.",
+        "keyboard": {
+            "template": "Choose a template:",
+            "split": {
+                "first": "Choose the first template:",
+                "second": "Choose another template:"
+            }
+        },
+        "error": {
+            "unknown": "Sorry, I couldn't figure out what you meant. Try the command /help to figure out what you can do.",
+            "hex": "Sorry, but that isn't a list of valid hex colors. Please type a comma separated list like the following: {0}",
+            "clear": "If you want to start over, use the command /cancel. This will clear all of your selections.",
+            "exception": "Something unexpected happened. If this persists, try using the /clear commands and starting over.",
+            "validationFailed": "Sorry, but that's not a valid value for {0}."
+        }
+    }
+}
